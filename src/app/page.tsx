@@ -1,7 +1,15 @@
-import { h2 } from "framer-motion/client";
-import Link from "next/link";
+import DemoFlow from '../components/landing/DemoFlow';
+import Footer from '../components/landing/Footer';
+import Header from '../components/landing/Header';
+import Hero from '../components/landing/Hero';
 
 export default function Home() {
-    return <h2>Home page</h2>
+    return (
+        <main className="min-h-screen bg-[#f5fbff]">
+            <Header />
+            <Hero />
+            <DemoFlow />
+            <Footer />
+        </main>
+    );
 }
-
