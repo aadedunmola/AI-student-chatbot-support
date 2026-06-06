@@ -11,6 +11,9 @@ const inter = Inter({
 export const metadata: Metadata = {
     title: "CampusFlow AI",
     description: "A polished student-support chatbot and admin dashboard built for CSC320 project presentation.",
+    icons: {
+        icon: "/icon.svg",
+    },
 };
 
 export default function RootLayout({

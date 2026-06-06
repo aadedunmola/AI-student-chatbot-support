@@ -1,7 +1,5 @@
-export default function Page() {
-    return (
-        <div>
-            FAQ Page
-        </div>
-    );
+import { FaqBrowser } from "@/src/components/faq/faq-browser";
+
+export default function FaqPage() {
+    return <FaqBrowser />;
 }
